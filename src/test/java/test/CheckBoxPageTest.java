@@ -24,7 +24,6 @@ public class CheckBoxPageTest {
         Driver.getDriver().findElement(By.xpath("//a[@id='at-cv-lightbox-close']")).click();
     }
 
-
     @Test
     public void checkboxTest() {
         checkBoxPage.allExamplesDropdown("Input Forms");
